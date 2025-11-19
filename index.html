@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcancía Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alcancía Digital</h1>
+        <p>Simulador de ahorro y retiros</p>
+    </header>
+
+    <section>
+        <h3>Depositar</h3>
+
+        <form id="formaDepositar">
+            <select id="montoDeposito">
+                <!-- Cada opcion tiene un valor que el script usa para depositar con .value -->
+                <option value="1">$1</option>
+                <option value="2">$2</option>
+                <option value="5">$5</option>
+                <option value="10">$10</option>
+                <option value="20">$20</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+                <option value="200">$200</option>
+                <option value="500">$500</option>
+            </select>s
+
+            <input type="submit" value="Depositar">
+        </form>
+    </section>
+
+    <section>
+        <h3>Retirar</h3>
+
+        <form id="formaRetirar">
+            <input id="cantidadRetiro" type="number" placeholder="Cantidad a retirar">
+            <input type="submit" value="Retirar">
+        </form>
+    </section>
+
+    <h3>Saldo Actual</h3>
+    <p id="saldo"></p>
+
+    <h3>Movimientos</h3>
+    <div id="listaMovimientos"></div>
+
+    <script src="js/miScript.js"></script>
+
+</body>
+
+</html>

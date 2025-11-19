@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1c175c;
+    color: white;
+    padding: 10px 0;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+#listaMovimientos {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#listaMovimientos p {
+    margin: 2px 0;
+}
